@@ -1,0 +1,38 @@
+.feed{
+  //max-width: 600px;
+  margin: 100px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.feed--img{
+  max-width: 40px;
+  border-radius: 90px;
+  float: left;
+  margin-right: 30px;
+}
+
+.feed--name{
+  color: #61a23e;
+  max-width: 400px;
+  float: left;
+  margin: 10px 0;
+  font-size: 1em;
+}
+
+.feed--date{
+  color: #aaa;
+  margin: 10px 0;
+  text-align: right;
+  float: right;
+}
+
+.feed--msg{
+  border-top: solid 1px #F2F2F2;
+  padding-top: 10px;
+  margin-left: 70px;
+  padding-right: 70px;
+  margin-bottom: 0;
+  clear: both;
+}
+

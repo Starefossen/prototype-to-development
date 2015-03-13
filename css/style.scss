@@ -123,7 +123,8 @@ $inuit-enable-btn--small: true;
     This is the one layer that inuitcss doesn’t get involved with.
     This is where we add our own components and modifiers to the objects.
 \*------------------------------------*/
-
+@import "components.box.scss";
+@import "components.feed.scss";
 
 /*------------------------------------*\
     #TRUMPS
