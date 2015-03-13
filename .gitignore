@@ -4,6 +4,7 @@ logs
 
 *.map
 *.css
+*.swp
 
 # Runtime data
 pids
