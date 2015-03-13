@@ -1,0 +1,15 @@
+www:
+  image: nginx:latest
+  ports:
+    - "8080"
+  volumes:
+    - .:/usr/share/nginx/html:ro
+
+workshop:
+  build: .
+  volumes:
+    - .:/usr/src/app
+  environment:
+    NODE_ENV: development
+  command: npm run-script build watch
+
