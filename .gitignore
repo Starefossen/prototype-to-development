@@ -4,6 +4,7 @@ logs
 
 *.map
 *.css
+*.css.map
 *.swp
 
 # Runtime data
